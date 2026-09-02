@@ -1,109 +1,84 @@
 # STOD-GEN: STOchastic Downscaling GENerator
 
-[![License](https://img.shields.io/badge/license-Academic_Research_Only-blue.svg)](https://img.shields.io/badge/license-Academic_Research_Only-blue.svg)
-[![Release](https://img.shields.io/badge/release-v1.1.1-green.svg)](https://img.shields.io/badge/release-v1.1.1-green.svg)
+[![License](https://img.shields.io/badge/license-Academic_Research_Only-blue.svg)](#license)
+[![Release](https://img.shields.io/badge/release-v1.1.1-green.svg)](https://github.com/zulkarnainh/STOD-GEN/releases)
 
-**STOD-GEN** is a standalone desktop tool for stochastic downscaling of Global Climate Model (GCM) rainfall data.  
-It generates future rainfall ensembles using a Markov Chain occurrence model coupled with a Gamma distribution for intensity, supporting hydrological and hydraulic impact assessments under CMIP6 climate scenarios.
+**STOD-GEN** is a standalone desktop tool for stochastic downscaling of Global Climate Model (GCM) rainfall data. It generates future rainfall ensembles using a Markov Chain occurrence model coupled with a Gamma distribution for intensity, supporting hydrological and hydraulic impact assessments under CMIP6 climate scenarios.
+
+> **Status Notice:** STOD-GEN is currently undergoing peer review alongside our research manuscript. Software features and documentation are continuously updated to support academic reproducibility.
 
 > **Formerly known as ZH-RainSim v1.1.0.**  
-> Version v1.1.1 is a minor update focused on rebranding, documentation, and stability improvements.
+> Version v1.1.1 is a minor release focused on rebranding, documentation alignment, and stability improvements.
 
 ---
 
 ## Download & Installation
 
-The software, user manual, and sample datasets are available in the **Releases** section.
+The software, user manual, and sample datasets are available in the [Releases](https://github.com/zulkarnainh/STOD-GEN/releases) section.
 
 ### 👉 Download the Latest Version (v1.1.1)
 
-Download the STOD-GEN installer here:  
-https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/STOD-GEN_v1.1.1.exe
+Direct installer download:  
+[STOD-GEN_v1.1.1.exe](https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/STOD-GEN_v1.1.1.exe)
 
-### Installation
+### Installation Steps
 
-1. Download the installer `.exe` file from the link above.  
+1. Download the installer executable (`STOD-GEN_v1.1.1.exe`) from the link above.  
 2. Run **STOD-GEN_v1.1.1.exe**.  
-3. Choose your preferred installation directory.  
-4. The installer will automatically extract all required files into that directory.  
-5. Open the folder and run **STOD-GEN.exe** to start the application.
+3. Choose your preferred destination directory.  
+4. The self-extracting installer will unpack all required dependencies into that folder.  
+5. Open the target folder and run **STOD-GEN.exe** to start the application.
 
-> **No traditional installation required — the installer simply extracts the application files.**
-
----
-
-### 📘 User Guide (PDF)
-
-Download the official STOD-GEN v1.1.1 User Guide:  
-https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/STOD-GEN.v1.1.1.User.Guide.pdf
+> **Note:** Portable build — no administrative rights or complex environment setups required.
 
 ---
 
-### 📦 Sample Data (ZIP)
+### 📘 Documentation & Sample Files
 
-Download sample datasets for testing and validation:  
-https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/Data.Samples.zip
+- **User Guide (PDF):** [Download STOD-GEN v1.1.1 User Guide](https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/STOD-GEN.v1.1.1.User.Guide.pdf)
+- **Sample Datasets (ZIP):** [Download Test Samples](https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/Data.Samples.zip)
+
+---
+
+## Key Features
+
+- **Automated Bias Correction:** Uses observational data to correct CMIP6 GCM biases.
+- **Stochastic Ensemble Generation:** Generates up to 500 rainfall scenarios via Markov Chain + Gamma distribution.
+- **Built-in Visual Analytics:** Instant plotting for histograms, monthly trends, and annual totals.
+- **Data Export:** Saves generated ensembles directly to CSV for seamless integration with Excel, MATLAB, Python, R, and OriginLab.
 
 ---
 
 ## What’s New in v1.1.1
 
 ### 1. Rebranding & Identity Update
+- Software renamed from **ZH-RainSim** to **STOD-GEN** (*STOchastic Downscaling GENerator*).
+- Repository URL updated with automatic redirection from legacy links.
 
-- Software renamed from **ZH-RainSim** to **STOD-GEN**  
-- Acronym defined as **STOchastic Downscaling GENerator**  
-- Updated titles, labels, and documentation to reflect new name  
-- GitHub repository renamed with automatic redirection from the old URL
+### 2. Interface & Usability
+- Synchronized application window headers and menu workflows.
+- Adjusted interface alignment for higher-DPI displays.
 
-### 2. Interface & Usability Improvements
-
-- Updated application title and window headers  
-- Improved consistency of menu labels and workflow names  
-- Minor layout and visual adjustments for better readability  
-
-### 3. Stability Fixes
-
-- Improved error handling for missing or invalid input files  
-- Fixed minor GUI alignment issues  
-- Updated deprecated Pandas `'Y'` offset to `'YE'`  
-- Enhanced folder-based build for faster startup and better antivirus compatibility  
-
----
-
-## Key Features
-
-- Automated downscaling of CMIP6 GCM rainfall data  
-- Stochastic simulation using Markov Chain + Gamma distribution  
-- Ensemble-based future rainfall projections  
-- User-friendly graphical interface  
-- Built-in visualization tools for validation and projections  
-- Export of ensembles to CSV for use in Excel, MATLAB, Python, R, and OriginLab  
+### 3. Stability & Engine Fixes
+- Fixed deprecated Pandas offset parameters (updated `'Y'` to `'YE'`).
+- Improved exception handling for corrupted or missing input CSV files.
+- Optimized executable folder structure for faster startup and improved antivirus compatibility.
 
 ---
 
 ## License
 
-**Copyright:**  
-MyIPO (Reference: LY2026P00740)
+**Copyright:** MyIPO (Reference: `LY2026P00740`)
 
-- **Academic Research:** Free with citation  
-- **Funded Research Projects:** Requires a license  
-- **Commercial Use:** Not permitted  
-
----
-
-## Contact & Support
-
-**Developer:** Zulkarnain Hassan  
-**Email:** zulkarnainh@unimap.edu.my  
-**Website:** http://zulk-unimap.blogspot.com 
-**Institution:** Universiti Malaysia Perlis  
+- **Academic Research:** Free to use with proper attribution/citation.
+- **Funded Research Projects:** Requires a dedicated user license.
+- **Commercial Use:** Prohibited without written approval.
 
 ---
 
 ## Citation
 
-If you use STOD-GEN in your research, please cite:
+If you use **STOD-GEN** in your academic work, please cite the repository below *(peer-reviewed manuscript citation pending acceptance)*:
 
 ```bibtex
 @software{stod_gen_2026,
@@ -112,5 +87,5 @@ If you use STOD-GEN in your research, please cite:
   year         = {2026},
   publisher    = {GitHub},
   journal      = {GitHub repository},
-  howpublished = {https://github.com/zulkarnainh/STOD-GEN}
+  howpublished = {\url{https://github.com/zulkarnainh/STOD-GEN}}
 }
