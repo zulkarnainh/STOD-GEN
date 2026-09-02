@@ -1,10 +1,13 @@
-# ZH-RainSim: A Tool for GCM Rainfall Downscaling
+# STOD-GEN: STOchastic Downscaling GENerator
 
-![License](https://img.shields.io/badge/license-Academic_Research_Only-blue.svg)
-![Release](https://img.shields.io/badge/release-v1.1.0-green.svg)
+[![License](https://img.shields.io/badge/license-Academic_Research_Only-blue.svg)](https://img.shields.io/badge/license-Academic_Research_Only-blue.svg)
+[![Release](https://img.shields.io/badge/release-v1.1.1-green.svg)](https://img.shields.io/badge/release-v1.1.1-green.svg)
 
-**ZH-RainSim** is a standalone desktop tool for downscaling Global Climate Model (GCM) rainfall data.  
+**STOD-GEN** is a standalone desktop tool for stochastic downscaling of Global Climate Model (GCM) rainfall data.  
 It generates future rainfall ensembles using a Markov Chain occurrence model coupled with a Gamma distribution for intensity, supporting hydrological and hydraulic impact assessments under CMIP6 climate scenarios.
+
+> **Formerly known as ZH-RainSim v1.1.0.**  
+> Version v1.1.1 is a minor update focused on rebranding, documentation, and stability improvements.
 
 ---
 
@@ -12,59 +15,41 @@ It generates future rainfall ensembles using a Markov Chain occurrence model cou
 
 The software, user manual, and sample datasets are available in the **Releases** section.
 
-### 👉 [Download the Latest Version (v1.1.0)](https://github.com/zulkarnainh/ZH-RainSim/releases/tag/ZH-RainSim_v1.1.0)
+### 👉 Download the Latest Version (v1.1.1)
 
-1. Download `ZH-RainSim_v1.zip` from the link above.  
-2. Right‑click the ZIP file → **Extract All…**  
+(Replace this with the actual release link after upload, e.g.)  
+`https://github.com/zulkarnainh/STOD-GEN/releases/tag/STOD-GEN_v1.1.1`
+
+1. Download the ZIP package from the release page.  
+2. Right-click the ZIP file → **Extract All…**  
 3. Open the extracted folder.  
-4. Double‑click **ZH-RainSim_v1.exe**.
+4. Double-click **STOD-GEN.exe**.
 
 > **No installation required — this is a portable application.**
 
 ---
 
-## What’s New in v1.1.0
+## What’s New in v1.1.1
 
-### **1. New Model Validation Module**
+### 1. Rebranding & Identity Update
 
-- **Baseline Simulation**  
-  Automatically runs using historical dates with Change Factors locked at 1.0.
+- Software renamed from **ZH-RainSim** to **STOD-GEN**  
+- Acronym defined as **STOchastic Downscaling GENerator**  
+- Updated titles, labels, and documentation to reflect new name  
+- GitHub repository renamed with automatic redirection from the old URL
 
-- **Comparative Plotting**  
-  Direct visual comparison between observed rainfall and simulated baseline.
+### 2. Interface & Usability Improvements
 
-- **New Validation Graphs**  
-  - Validation Histograms  
-  - Average Monthly Trends  
-  - Annual Total Rainfall  
+- Updated application title and window headers  
+- Improved consistency of menu labels and workflow names  
+- Minor layout and visual adjustments for better readability  
 
----
+### 3. Stability Fixes
 
-### **2. Redesigned Results Interface**
-
-| Workflow | Purpose |
-|---------|---------|
-| **Validation** | Demonstrate model performance using historical datasets |
-| **Projections** | Visualize GCM‑driven future climate scenarios |
-| **Analysis** | Inspect Change Factors, Markov Transition Probabilities, and other parameters |
-
----
-
-### **3. Expanded Data Export Capabilities**
-
-A new output file is automatically generated:
-
-- `Validation_Historical_Ensembles.csv`
-
-This enables seamless import into Excel, MATLAB, Python, or OriginLab.
-
----
-
-### **4. Stability Improvements & Bug Fixes**
-
-- Improved GUI error handling with diagnostic warnings  
+- Improved error handling for missing or invalid input files  
+- Fixed minor GUI alignment issues  
 - Updated deprecated Pandas `'Y'` offset to `'YE'`  
-- Transitioned to a **Folder Build** for faster launch and better antivirus compatibility  
+- Enhanced folder-based build for faster startup and better antivirus compatibility  
 
 ---
 
@@ -72,10 +57,10 @@ This enables seamless import into Excel, MATLAB, Python, or OriginLab.
 
 - Automated downscaling of CMIP6 GCM rainfall data  
 - Stochastic simulation using Markov Chain + Gamma distribution  
-- User‑friendly GUI  
-- Built‑in visualization tools  
-- New validation tools (v1.1.0)  
-- Improved export pipeline (v1.1.0)  
+- Ensemble-based future rainfall projections  
+- User-friendly graphical interface  
+- Built-in visualization tools for validation and projections  
+- Export of ensembles to CSV for use in Excel, MATLAB, Python, R, and OriginLab  
 
 ---
 
@@ -101,14 +86,14 @@ MyIPO (Reference: LY2026P00740)
 
 ## Citation
 
-If you use ZH‑RainSim in your research, please cite:
+If you use STOD-GEN in your research, please cite:
 
 ```bibtex
-@software{zh_rainsim_2026,
+@software{stod_gen_2026,
   author       = {Zulkarnain Hassan},
-  title        = {ZH-RainSim: A Tool for GCM Rainfall Downscaling},
+  title        = {STOD-GEN: STOchastic Downscaling GENerator},
   year         = {2026},
   publisher    = {GitHub},
   journal      = {GitHub repository},
-  howpublished = {https://github.com/zulkarnainh/ZH-RainSim}
+  howpublished = {https://github.com/zulkarnainh/STOD-GEN}
 }
