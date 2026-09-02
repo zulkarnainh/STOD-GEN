@@ -17,15 +17,32 @@ The software, user manual, and sample datasets are available in the **Releases**
 
 ### 👉 Download the Latest Version (v1.1.1)
 
-(Replace this with the actual release link after upload, e.g.)  
-`https://github.com/zulkarnainh/STOD-GEN/releases/tag/STOD-GEN_v1.1.1`
+Download the STOD-GEN installer here:  
+https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/STOD-GEN_v1.1.1.exe
 
-1. Download the ZIP package from the release page.  
-2. Right-click the ZIP file → **Extract All…**  
-3. Open the extracted folder.  
-4. Double-click **STOD-GEN.exe**.
+### Installation
 
-> **No installation required — this is a portable application.**
+1. Download the installer `.exe` file from the link above.  
+2. Run **STOD-GEN_v1.1.1.exe**.  
+3. Choose your preferred installation directory.  
+4. The installer will automatically extract all required files into that directory.  
+5. Open the folder and run **STOD-GEN.exe** to start the application.
+
+> **No traditional installation required — the installer simply extracts the application files.**
+
+---
+
+### 📘 User Guide (PDF)
+
+Download the official STOD-GEN v1.1.1 User Guide:  
+https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/STOD-GEN.v1.1.1.User.Guide.pdf
+
+---
+
+### 📦 Sample Data (ZIP)
+
+Download sample datasets for testing and validation:  
+https://github.com/zulkarnainh/STOD-GEN/releases/download/STOD-GEN_v1.1.1/Data.Samples.zip
 
 ---
 
@@ -79,7 +96,7 @@ MyIPO (Reference: LY2026P00740)
 
 **Developer:** Zulkarnain Hassan  
 **Email:** zulkarnainh@unimap.edu.my  
-**Website:** http://zulkarnainh.unimap.edu.my  
+**Website:** http://zulk-unimap.blogspot.com 
 **Institution:** Universiti Malaysia Perlis  
 
 ---
